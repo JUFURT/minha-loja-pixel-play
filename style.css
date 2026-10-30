@@ -1,0 +1,16 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+body { background:#0f0f1a; color:#fff; line-height:1.6; }
+header { text-align:center; padding:40px 20px; background: linear-gradient(135deg, #6c5ce7, #a29bfe); }
+header h1 { font-size:2.8rem; margin-bottom:10px; letter-spacing:2px; }
+header p { font-size:1.1rem; opacity:0.9; }
+.instrucoes { max-width:900px; margin:30px auto; background:#1e1e2f; padding:20px; border-radius:12px; border-left:4px solid #6c5ce7; }
+.produtos { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:20px; max-width:1000px; margin:30px auto; padding:0 20px; }
+.card { background:#1e1e2f; padding:25px; border-radius:16px; text-align:center; transition:0.3s; border:1px solid #2d2d44; }
+.card:hover { transform:translateY(-5px); border-color:#6c5ce7; box-shadow:0 10px 25px rgba(108,92,231,0.3); }
+.card h3 { color:#a29bfe; margin-bottom:8px; }
+.desc { font-size:0.9rem; color:#ccc; min-height:50px; }
+.preco { display:inline-block; margin-top:15px; font-size:1.4rem; font-weight:bold; color:#00cec9; background:#0f0f1a; padding:6px 14px; border-radius:20px; }
+.acao { text-align:center; margin:40px; }
+.acao button { background:linear-gradient(135deg, #00cec9, #6c5ce7); color:white; border:none; padding:16px 40px; font-size:1.2rem; font-weight:bold; border-radius:30px; cursor:pointer; transition:0.3s; }
+.acao button:hover { transform:scale(1.05); box-shadow:0 5px 20px rgba(0,206,201,0.5); }
+footer { text-align:center; padding:20px; background:#1a1a2e; color:#aaa; font-size:0.9rem; margin-top:40px; }
